@@ -1,0 +1,29 @@
+struktur file :
+
+class kick_off :
+	robot penyerang berada di < 0.5 m dari bola
+
+
+class tanding :
+	robot penyerang mencari dan menendang bola
+
+class ready :
+	robot penyerang berada di <1 m dari bola
+
+class utama :
+	flag = 1
+	interupt = ""
+	cmd = input(wasit)
+		
+
+	if(flag == 1)
+		perintah = cmd
+	else:
+		peritah = interupt
+	
+	if(perintah == 'r'):
+		kick_off
+		cmd.isInput()
+			interupt = cmd.read()
+			break
+	

@@ -1,0 +1,8 @@
+[Unit]
+Description=Chrono Apps Runservice
+
+[Service]
+ExecStart=/home/ubuntu/backend_chronoapps/chrono-apps-backend/runscript.sh
+
+[Install]
+WantedBy=multi-user.target
